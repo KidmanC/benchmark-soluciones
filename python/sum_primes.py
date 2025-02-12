@@ -1,4 +1,7 @@
 import time
+import os
+
+os.makedirs("python", exist_ok=True)
 
 def is_prime(n):
     if n <= 1:
